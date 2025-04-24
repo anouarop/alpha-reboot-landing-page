@@ -1,11 +1,15 @@
+
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { TestimonialCard } from "@/components/TestimonialCard";
 import { CountdownTimer } from "@/components/CountdownTimer";
+import { useNavigate } from "react-router-dom";
 
 const Index = () => {
+  const navigate = useNavigate();
+
   const handleUnlock = () => {
-    window.location.href = "https://biohackroot.com/unlocked-content";
+    navigate("/secret");
   };
 
   return (
