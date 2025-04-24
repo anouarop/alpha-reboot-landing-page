@@ -1,4 +1,3 @@
-
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { TestimonialCard } from "@/components/TestimonialCard";
@@ -6,7 +5,7 @@ import { CountdownTimer } from "@/components/CountdownTimer";
 
 const Index = () => {
   const handleUnlock = () => {
-    window.location.href = "https://yourlink.com/unlocked-content";
+    window.location.href = "https://biohackroot.com/unlocked-content";
   };
 
   return (
@@ -16,8 +15,8 @@ const Index = () => {
         <div className="absolute inset-0 bg-black/70"></div>
         <div className="relative container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-            The Untold Secret to Naturally Boost Your
-            <span className="text-masculine-blue"> Testosterone</span>
+            Biohack Root: The Untold Secret to 
+            <span className="text-masculine-blue"> Naturally Boost Your Testosterone</span>
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-gray-300">
             92% of men are running on LOW T — and have no idea why they feel tired, weak, or
@@ -27,7 +26,7 @@ const Index = () => {
             onClick={handleUnlock}
             className="bg-masculine-accent hover:bg-masculine-accent/90 text-white px-8 py-6 text-lg rounded-md transition-all transform hover:scale-105"
           >
-            Unlock the Free PDF Now
+            Unlock the Biohack Protocol Now
             <ArrowRight className="ml-2 h-5 w-5" />
           </Button>
         </div>
